@@ -1,4 +1,4 @@
-import { readdirSync } from "fs";
+const { readdirSync } = require("fs")
 
 module.exports = (client) => {
 
