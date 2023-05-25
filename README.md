@@ -1,13 +1,12 @@
 # selfbot-discord
 
-> Selfbot Backup/Gestion/
+> Selfbot Backup/Gestion/Info/..
 
 Si vous avez des suggestions, n'hésitez pas à me les transmettre sur discord ! 
 
-
-```diff
-+ Configuration du profil>
-+- <prefix>set name <New Name>
+```
+Commandes
+- <prefix>set name <New Name>
 - <prefix>set avatar <Image/ImageUrl>
 - <prefix>set hashtag/discriminator <New #>
 - <prefix>set bio <New Bio>
@@ -18,23 +17,19 @@ Si vous avez des suggestions, n'hésitez pas à me les transmettre sur discord !
 - <prefix>clearserveur
 - <prefix>stream <New Stream>
 - <prefix>listen <New Statut>
-- <prefix>statut <dnd/online/idle>\n - ${config.prefix}leaveid <Id>\n - ${config.prefix}addfriend <@User/id>\n - ${config.prefix}delfriend <@User/id>\`\`\`\
-        `)
-        }
-        if(info) {
-        message.edit(`\`\`\`apache\n<Commandes\`\`\` \`\`\`js\nInformations & Utilitaire\`\`\` \`\`\`\n - ${config.prefix}help\n - ${config.prefix}admins\n - ${config.prefix}ms\n - ${config.prefix}bots\`\`\`\
-        `)
-        }
-        if(backup) {
-        message.edit(`\`\`\`apache\n<Commandes\`\`\` \`\`\`js\nBackup\`\`\` \`\`\`\n - ${config.prefix}bcreate\n - ${config.prefix}blist\n - ${config.prefix}bload <BackupId>\`\`\`\
-        `)
-        } 
-        if(ia) {
-        message.edit(`\`\`\`apache\n<Commandes\`\`\` \`\`\`js\nIa\`\`\` \`\`\`\n - ${config.prefix}imagine <Mot Clé>\n - ${config.prefix}chat <Question>\`\`\`\
-        `)
-        } 
-        if(!args[0]){
-        message.edit(`\`\`\`diff\nMode incorrect:\`\`\`\n> ${config.prefix}help gestion/info/backup/ia/config`)
+- <prefix>statut <dnd/online/idle>
+- <prefix>leaveid <Id>
+- <prefix>addfriend <@User/id>
+- <prefix>delfriend <@User/id>
+- <prefix>help <option>
+- <prefix>admins
+- <prefix>ms
+- <prefix>bots\`\`\`\
+- <prefix>bcreate
+- <prefix>blist
+- <prefix>bload <BackupId>
+- <prefix>imagine <Mot Clé>\n - <prefix>chat <Question>
+
         }
 
 ```
