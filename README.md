@@ -5,10 +5,9 @@
 Si vous avez des suggestions, n'hésitez pas à me les transmettre sur discord ! 
 
 
-```diff
-
-+Configuration du profil
-- <prefix>set name <New Name>
+```apache
+<Configuration du profil>
+ - <prefix>set name <New Name>
 - <prefix>set avatar <Image/ImageUrl>
 - <prefix>set hashtag/discriminator <New #>
 - <prefix>set bio <New Bio>
