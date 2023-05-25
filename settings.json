@@ -1,0 +1,7 @@
+{
+      "token": "Ton token (d'utilisateur)", 
+      "prefix": "&", 
+      "password":"Ton mot de passe (optionnel)",
+      "url":"https://twitch.tv/discord",
+      "openai":"openai key"
+}
