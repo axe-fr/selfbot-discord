@@ -1,6 +1,5 @@
 
-import backup from 'discord-backup';
-
+const backup = require('discord-backup')
 module.exports = {
     name:"blist",
     aliases:["backup-list","backuplist"],
