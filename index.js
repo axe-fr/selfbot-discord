@@ -1,5 +1,5 @@
-import { Client, Collection } from'discord.js-selfbot-v13';
-import { readdirSync } from "fs";
+const { Client, Collection } = require('discord.js-selfbot-v13');
+const { readdirSync } = require("fs")
 
 
 const config = require('./settings.json');
