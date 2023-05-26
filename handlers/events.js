@@ -7,8 +7,6 @@ module.exports = (client) => {
 
         const event = require(`../events/${file}`).default;
 
-        event.once 
-        ? client.once(event.name, (...args) => event.execute(...args)) 
-        : client.on(event.name, (...args) => event.execute(...args));
+        client.on(event.name, (...args) => event.execute(...args));
     })
 }
